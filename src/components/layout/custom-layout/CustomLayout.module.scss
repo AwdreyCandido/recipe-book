@@ -1,0 +1,22 @@
+.content-container {
+  width: 100dvw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100px 1fr max-content;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  background-color: #f7f8fa;
+}
+
+.recipes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-auto-columns: auto;
+
+
+  gap: 3rem;
+}
